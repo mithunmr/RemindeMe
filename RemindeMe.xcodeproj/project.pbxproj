@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EDCE90D2B3094CC009C29E3 /* LearnWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0EDCE90C2B3094CC009C29E3 /* LearnWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0EDCE9122B3094CC009C29E3 /* LearnWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9112B3094CC009C29E3 /* LearnWatchApp.swift */; };
-		0EDCE9142B3094CC009C29E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9132B3094CC009C29E3 /* ContentView.swift */; };
+		0EB63F6B2B3D45380015784A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB63F6A2B3D45380015784A /* NotificationManager.swift */; };
+		0EB63F6E2B3D94F80015784A /* ReminderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB63F6D2B3D94F80015784A /* ReminderDetails.swift */; };
+		0EB63F702B3DBA280015784A /* ReminderDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB63F6F2B3DBA280015784A /* ReminderDetailsViewModel.swift */; };
+		0EDCE90D2B3094CC009C29E3 /* RemindeMe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0EDCE90C2B3094CC009C29E3 /* RemindeMe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0EDCE9122B3094CC009C29E3 /* RemindeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9112B3094CC009C29E3 /* RemindeMeApp.swift */; };
 		0EDCE9162B3094CE009C29E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDCE9152B3094CE009C29E3 /* Assets.xcassets */; };
 		0EDCE9192B3094CE009C29E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDCE9182B3094CE009C29E3 /* Preview Assets.xcassets */; };
+		0EDCE9242B316ACB009C29E3 /* AddReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9232B316ACB009C29E3 /* AddReminder.swift */; };
+		0EDCE9292B316B55009C29E3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9282B316B55009C29E3 /* Home.swift */; };
+		0EDCE92C2B316DEF009C29E3 /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE92B2B316DEF009C29E3 /* ReminderList.swift */; };
+		0EDCE92F2B3188CC009C29E3 /* ReminderContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE92D2B3188CC009C29E3 /* ReminderContainer.xcdatamodeld */; };
+		0EDCE9332B319474009C29E3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9322B319474009C29E3 /* CoreDataManager.swift */; };
+		0EDCE9352B319949009C29E3 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9342B319949009C29E3 /* ReminderModel.swift */; };
+		0EDCE9372B3199A7009C29E3 /* AddReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9362B3199A7009C29E3 /* AddReminderViewModel.swift */; };
+		0EDCE9392B319EFD009C29E3 /* ReminderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9382B319EFD009C29E3 /* ReminderListViewModel.swift */; };
+		0EDCE93C2B3317A2009C29E3 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE93B2B3317A2009C29E3 /* DateTime.swift */; };
+		0EDCE9402B331AA6009C29E3 /* DateTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE93F2B331AA6009C29E3 /* DateTimeViewModel.swift */; };
+		0EDCE9422B331ACF009C29E3 /* DateTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE9412B331ACF009C29E3 /* DateTimeModel.swift */; };
+		0EE27D052B3AD75A00FE0F83 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE27D042B3AD75A00FE0F83 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +45,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0EDCE90D2B3094CC009C29E3 /* LearnWatch Watch App.app in Embed Watch Content */,
+				0EDCE90D2B3094CC009C29E3 /* RemindeMe Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,12 +53,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0EDCE9062B3094CC009C29E3 /* LearnWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EDCE90C2B3094CC009C29E3 /* LearnWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearnWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EDCE9112B3094CC009C29E3 /* LearnWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWatchApp.swift; sourceTree = "<group>"; };
-		0EDCE9132B3094CC009C29E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EB63F6A2B3D45380015784A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		0EB63F6D2B3D94F80015784A /* ReminderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetails.swift; sourceTree = "<group>"; };
+		0EB63F6F2B3DBA280015784A /* ReminderDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsViewModel.swift; sourceTree = "<group>"; };
+		0EDCE9062B3094CC009C29E3 /* RemindeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDCE90C2B3094CC009C29E3 /* RemindeMe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemindeMe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDCE9112B3094CC009C29E3 /* RemindeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindeMeApp.swift; sourceTree = "<group>"; };
 		0EDCE9152B3094CE009C29E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDCE9182B3094CE009C29E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EDCE9232B316ACB009C29E3 /* AddReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminder.swift; sourceTree = "<group>"; };
+		0EDCE9282B316B55009C29E3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0EDCE92B2B316DEF009C29E3 /* ReminderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderList.swift; sourceTree = "<group>"; };
+		0EDCE92E2B3188CC009C29E3 /* Remiders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remiders.xcdatamodel; sourceTree = "<group>"; };
+		0EDCE9322B319474009C29E3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0EDCE9342B319949009C29E3 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		0EDCE9362B3199A7009C29E3 /* AddReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewModel.swift; sourceTree = "<group>"; };
+		0EDCE9382B319EFD009C29E3 /* ReminderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewModel.swift; sourceTree = "<group>"; };
+		0EDCE93B2B3317A2009C29E3 /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		0EDCE93F2B331AA6009C29E3 /* DateTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewModel.swift; sourceTree = "<group>"; };
+		0EDCE9412B331ACF009C29E3 /* DateTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeModel.swift; sourceTree = "<group>"; };
+		0EE27D042B3AD75A00FE0F83 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB63F692B3D45150015784A /* NotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				0EB63F6A2B3D45380015784A /* NotificationManager.swift */,
+			);
+			path = NotificationManager;
+			sourceTree = "<group>";
+		};
+		0EB63F6C2B3D94DA0015784A /* ReminderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0EB63F6D2B3D94F80015784A /* ReminderDetails.swift */,
+				0EB63F6F2B3DBA280015784A /* ReminderDetailsViewModel.swift */,
+			);
+			path = ReminderDetails;
+			sourceTree = "<group>";
+		};
 		0EDCE8FF2B3094CC009C29E3 = {
 			isa = PBXGroup;
 			children = (
-				0EDCE9102B3094CC009C29E3 /* LearnWatch Watch App */,
+				0EDCE9102B3094CC009C29E3 /* RemindeMe Watch App */,
 				0EDCE9072B3094CC009C29E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,21 +114,25 @@
 		0EDCE9072B3094CC009C29E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EDCE9062B3094CC009C29E3 /* LearnWatch.app */,
-				0EDCE90C2B3094CC009C29E3 /* LearnWatch Watch App.app */,
+				0EDCE9062B3094CC009C29E3 /* RemindeMe.app */,
+				0EDCE90C2B3094CC009C29E3 /* RemindeMe Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EDCE9102B3094CC009C29E3 /* LearnWatch Watch App */ = {
+		0EDCE9102B3094CC009C29E3 /* RemindeMe Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				0EDCE9112B3094CC009C29E3 /* LearnWatchApp.swift */,
-				0EDCE9132B3094CC009C29E3 /* ContentView.swift */,
+				0EDCE92D2B3188CC009C29E3 /* ReminderContainer.xcdatamodeld */,
+				0EDCE9112B3094CC009C29E3 /* RemindeMeApp.swift */,
+				0EE27D012B3AD71A00FE0F83 /* Extensions */,
+				0EDCE93A2B33177E009C29E3 /* Component */,
+				0EDCE9302B31944C009C29E3 /* Manager */,
+				0EDCE9252B316B32009C29E3 /* Screens */,
 				0EDCE9152B3094CE009C29E3 /* Assets.xcassets */,
 				0EDCE9172B3094CE009C29E3 /* Preview Content */,
 			);
-			path = "LearnWatch Watch App";
+			path = "RemindeMe Watch App";
 			sourceTree = "<group>";
 		};
 		0EDCE9172B3094CE009C29E3 /* Preview Content */ = {
@@ -94,12 +143,93 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0EDCE9252B316B32009C29E3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0EB63F6C2B3D94DA0015784A /* ReminderDetails */,
+				0EDCE9272B316B4A009C29E3 /* Home */,
+				0EDCE92A2B316DBF009C29E3 /* ReminderList */,
+				0EDCE9262B316B3B009C29E3 /* AddReminer */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0EDCE9262B316B3B009C29E3 /* AddReminer */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE9232B316ACB009C29E3 /* AddReminder.swift */,
+				0EDCE9342B319949009C29E3 /* ReminderModel.swift */,
+				0EDCE9362B3199A7009C29E3 /* AddReminderViewModel.swift */,
+			);
+			path = AddReminer;
+			sourceTree = "<group>";
+		};
+		0EDCE9272B316B4A009C29E3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE9282B316B55009C29E3 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0EDCE92A2B316DBF009C29E3 /* ReminderList */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE92B2B316DEF009C29E3 /* ReminderList.swift */,
+				0EDCE9382B319EFD009C29E3 /* ReminderListViewModel.swift */,
+			);
+			path = ReminderList;
+			sourceTree = "<group>";
+		};
+		0EDCE9302B31944C009C29E3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0EB63F692B3D45150015784A /* NotificationManager */,
+				0EDCE9312B319460009C29E3 /* CoreDataManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0EDCE9312B319460009C29E3 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE9322B319474009C29E3 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		0EDCE93A2B33177E009C29E3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE93D2B331A82009C29E3 /* DateTime */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0EDCE93D2B331A82009C29E3 /* DateTime */ = {
+			isa = PBXGroup;
+			children = (
+				0EDCE93B2B3317A2009C29E3 /* DateTime.swift */,
+				0EDCE93F2B331AA6009C29E3 /* DateTimeViewModel.swift */,
+				0EDCE9412B331ACF009C29E3 /* DateTimeModel.swift */,
+			);
+			path = DateTime;
+			sourceTree = "<group>";
+		};
+		0EE27D012B3AD71A00FE0F83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EE27D042B3AD75A00FE0F83 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EDCE9052B3094CC009C29E3 /* LearnWatch */ = {
+		0EDCE9052B3094CC009C29E3 /* RemindeMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EDCE9202B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "LearnWatch" */;
+			buildConfigurationList = 0EDCE9202B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "RemindeMe" */;
 			buildPhases = (
 				0EDCE9042B3094CC009C29E3 /* Resources */,
 				0EDCE91F2B3094CE009C29E3 /* Embed Watch Content */,
@@ -109,14 +239,14 @@
 			dependencies = (
 				0EDCE90F2B3094CC009C29E3 /* PBXTargetDependency */,
 			);
-			name = LearnWatch;
+			name = RemindeMe;
 			productName = LearnWatch;
-			productReference = 0EDCE9062B3094CC009C29E3 /* LearnWatch.app */;
+			productReference = 0EDCE9062B3094CC009C29E3 /* RemindeMe.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		0EDCE90B2B3094CC009C29E3 /* LearnWatch Watch App */ = {
+		0EDCE90B2B3094CC009C29E3 /* RemindeMe Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EDCE91C2B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "LearnWatch Watch App" */;
+			buildConfigurationList = 0EDCE91C2B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "RemindeMe Watch App" */;
 			buildPhases = (
 				0EDCE9082B3094CC009C29E3 /* Sources */,
 				0EDCE9092B3094CC009C29E3 /* Frameworks */,
@@ -126,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = "LearnWatch Watch App";
+			name = "RemindeMe Watch App";
 			productName = "LearnWatch Watch App";
-			productReference = 0EDCE90C2B3094CC009C29E3 /* LearnWatch Watch App.app */;
+			productReference = 0EDCE90C2B3094CC009C29E3 /* RemindeMe Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0EDCE9032B3094CC009C29E3 /* Build configuration list for PBXProject "LearnWatch" */;
+			buildConfigurationList = 0EDCE9032B3094CC009C29E3 /* Build configuration list for PBXProject "RemindeMe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,8 +292,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EDCE9052B3094CC009C29E3 /* LearnWatch */,
-				0EDCE90B2B3094CC009C29E3 /* LearnWatch Watch App */,
+				0EDCE9052B3094CC009C29E3 /* RemindeMe */,
+				0EDCE90B2B3094CC009C29E3 /* RemindeMe Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -192,8 +322,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDCE9142B3094CC009C29E3 /* ContentView.swift in Sources */,
-				0EDCE9122B3094CC009C29E3 /* LearnWatchApp.swift in Sources */,
+				0EDCE9422B331ACF009C29E3 /* DateTimeModel.swift in Sources */,
+				0EB63F702B3DBA280015784A /* ReminderDetailsViewModel.swift in Sources */,
+				0EDCE9372B3199A7009C29E3 /* AddReminderViewModel.swift in Sources */,
+				0EDCE9402B331AA6009C29E3 /* DateTimeViewModel.swift in Sources */,
+				0EDCE9332B319474009C29E3 /* CoreDataManager.swift in Sources */,
+				0EB63F6B2B3D45380015784A /* NotificationManager.swift in Sources */,
+				0EDCE93C2B3317A2009C29E3 /* DateTime.swift in Sources */,
+				0EE27D052B3AD75A00FE0F83 /* DateExtension.swift in Sources */,
+				0EDCE9122B3094CC009C29E3 /* RemindeMeApp.swift in Sources */,
+				0EDCE92F2B3188CC009C29E3 /* ReminderContainer.xcdatamodeld in Sources */,
+				0EDCE9292B316B55009C29E3 /* Home.swift in Sources */,
+				0EB63F6E2B3D94F80015784A /* ReminderDetails.swift in Sources */,
+				0EDCE9242B316ACB009C29E3 /* AddReminder.swift in Sources */,
+				0EDCE9392B319EFD009C29E3 /* ReminderListViewModel.swift in Sources */,
+				0EDCE9352B319949009C29E3 /* ReminderModel.swift in Sources */,
+				0EDCE92C2B316DEF009C29E3 /* ReminderList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +346,7 @@
 /* Begin PBXTargetDependency section */
 		0EDCE90F2B3094CC009C29E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0EDCE90B2B3094CC009C29E3 /* LearnWatch Watch App */;
+			target = 0EDCE90B2B3094CC009C29E3 /* RemindeMe Watch App */;
 			targetProxy = 0EDCE90E2B3094CC009C29E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -324,7 +468,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearnWatch Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RemindeMe Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = LearnWatch;
@@ -353,7 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearnWatch Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RemindeMe Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = LearnWatch;
@@ -410,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EDCE9032B3094CC009C29E3 /* Build configuration list for PBXProject "LearnWatch" */ = {
+		0EDCE9032B3094CC009C29E3 /* Build configuration list for PBXProject "RemindeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EDCE91A2B3094CE009C29E3 /* Debug */,
@@ -419,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EDCE91C2B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "LearnWatch Watch App" */ = {
+		0EDCE91C2B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "RemindeMe Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EDCE91D2B3094CE009C29E3 /* Debug */,
@@ -428,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EDCE9202B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "LearnWatch" */ = {
+		0EDCE9202B3094CE009C29E3 /* Build configuration list for PBXNativeTarget "RemindeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EDCE9212B3094CE009C29E3 /* Debug */,
@@ -438,6 +582,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0EDCE92D2B3188CC009C29E3 /* ReminderContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0EDCE92E2B3188CC009C29E3 /* Remiders.xcdatamodel */,
+			);
+			currentVersion = 0EDCE92E2B3188CC009C29E3 /* Remiders.xcdatamodel */;
+			path = ReminderContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0EDCE9002B3094CC009C29E3 /* Project object */;
 }

@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct LearnWatch_Watch_AppApp: App {
+struct RemindeMe: App {
+    let notificationManager = NotificationManager()
+    init(){
+        notificationManager.requestPermission()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
     }
 }
